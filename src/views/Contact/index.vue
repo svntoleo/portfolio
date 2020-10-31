@@ -1,3 +1,3 @@
 <template lang="pug">
-.who-am-i who-am-i
+.contact contact
 </template>
