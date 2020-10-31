@@ -1,7 +1,7 @@
 <template lang="pug">
 .contact
 	heading(:data="heading")
-	action-button(label="BUTTON", @btnEvent="goToBegin")
+	action-button(label="BUTTON", @buttonEvent="goToBegin")
 </template>
 <script>
 import { Heading, ActionButton } from "@/components/Common"

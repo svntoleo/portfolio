@@ -1,7 +1,7 @@
 <template lang="pug">
 .skills
 	heading(:data="heading")
-	action-button(label="BUTTON", @btnEvent="goToPortfolio")
+	action-button(label="BUTTON", @buttonEvent="goToPortfolio")
 </template>
 <script>
 import { Heading, ActionButton } from "@/components/Common"

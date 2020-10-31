@@ -1,5 +1,5 @@
 <template lang="pug">
-.button(@click="$emit('btnEvent')") {{ label }}
+.button(@click="$emit('buttonEvent')") {{ label }}
 </template>
 <script>
 export default {
