@@ -1,3 +1,3 @@
-import AppTopToolBar from "./AppTopToolBar"
+import ToolBar from "./ToolBar"
 
-export { AppTopToolBar }
+export { ToolBar }

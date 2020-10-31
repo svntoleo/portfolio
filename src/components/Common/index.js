@@ -1,4 +1,4 @@
-import Button from "./Button"
+import ActionButton from "./ActionButton"
 import Heading from "./Heading"
 
-export { Button, Heading }
+export { ActionButton, Heading }

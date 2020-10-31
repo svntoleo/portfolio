@@ -1,13 +1,11 @@
 <template lang="pug">
-.heading
-	.title {{ data.title }}
-	.description {{ data.description }}
+.button(@click="$emit('btnEvent')") {{ label }}
 </template>
 <script>
 export default {
 	props: {
-		data: {
-			type: Object,
+		label: {
+			type: String,
 			default: "",
 		},
 	},

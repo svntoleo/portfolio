@@ -1,5 +1,5 @@
 <template lang="pug">
-ul.teste
+ul.tool-bar
 	router-link(
 		v-for="(route, index) in routes",
 		:key="index",
@@ -12,10 +12,10 @@ export default {
 	data() {
 		return {
 			routes: [
-				{ name: "whoami", description: "Quem Sou Eu" },
+				{ name: "whoami", description: "Who Am I" },
 				{ name: "skills", description: "Skills" },
 				{ name: "portfolio", description: "Portfolio" },
-				{ name: "contact", description: "Contato" },
+				{ name: "contact", description: "Contact" },
 			],
 		}
 	},
