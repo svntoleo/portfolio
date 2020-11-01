@@ -2,7 +2,7 @@
 .skills
 	heading(:data="heading")
 
-	.grid
+	grid
 		card(v-for="(card, index) in cards", :key="index")
 			img(src="@/assets/images/js.png")
 			card-footer(:data="card")
@@ -12,6 +12,7 @@
 <script>
 import { Heading, ActionButton } from "@/components/Common"
 import { Card, CardFooter } from "@/components/Card"
+import { Grid } from "@/components/Layout"
 
 export default {
 	components: {
@@ -19,6 +20,7 @@ export default {
 		ActionButton,
 		Card,
 		CardFooter,
+		Grid,
 	},
 	data() {
 		return {
