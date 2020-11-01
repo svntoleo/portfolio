@@ -3,10 +3,21 @@
 	align-items center
 	justify-content space-evenly
 
+	@media screen and (max-width 600px)
+		flex-flow column
+
 	img
 		max-width 20rem
 		max-height 20rem
 		border-radius 50%
+		margin 0 0 2rem
+
+		@media screen and (max-width 600px)
+			max-width 15rem
+			max-height 15rem
 
 	.content
 		width 65%
+
+		@media screen and (max-width 600px)
+			width 100%

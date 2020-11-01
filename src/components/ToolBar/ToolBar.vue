@@ -1,11 +1,12 @@
 <template lang="pug">
-ul.tool-bar
-	router-link(
-		v-for="(route, index) in routes",
-		:key="index",
-		:to="route.name",
-		tag="li"
-	) {{ route.description }}
+.tool-bar
+	ul
+		router-link(
+			v-for="(route, index) in routes",
+			:key="index",
+			:to="route.name",
+			tag="li"
+		) {{ route.description }}
 </template>
 <script>
 export default {
