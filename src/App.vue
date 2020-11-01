@@ -1,7 +1,8 @@
 <template lang="pug">
 #app
 	tool-bar
-	router-view
+	.router-view
+		router-view
 </template>
 <script>
 import { ToolBar } from "@/components/ToolBar"
@@ -12,3 +13,4 @@ export default {
 	},
 }
 </script>
+<style lang="stylus" src="@/assets/styles/App.styl">

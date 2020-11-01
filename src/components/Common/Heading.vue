@@ -13,3 +13,4 @@ export default {
 	},
 }
 </script>
+<style lang="stylus" src="@/assets/styles/components/Common/Heading.styl">

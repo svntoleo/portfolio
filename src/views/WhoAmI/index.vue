@@ -1,8 +1,9 @@
 <template lang="pug">
 .who-am-i
 	img(src="@/assets/images/pic.png")
-	heading(:data="heading")
-	action-button(label="BUTTON", @buttonEvent="goToSkills")
+	.content
+		heading(:data="heading")
+		action-button(label="BUTTON", @buttonEvent="goToSkills")
 </template>
 <script>
 import { Heading, ActionButton } from "@/components/Common"
@@ -28,3 +29,4 @@ export default {
 	},
 }
 </script>
+<style lang="stylus" src="@/assets/styles/views/WhoAmI.styl">

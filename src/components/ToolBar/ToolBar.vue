@@ -21,3 +21,4 @@ export default {
 	},
 }
 </script>
+<style lang="stylus" src="@/assets/styles/components/ToolBar/ToolBar.styl">

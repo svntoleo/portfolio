@@ -1,5 +1,5 @@
 <template lang="pug">
-.button(@click="$emit('buttonEvent')") {{ label }}
+.action-button(@click="$emit('buttonEvent')") {{ label }}
 </template>
 <script>
 export default {
@@ -11,3 +11,4 @@ export default {
 	},
 }
 </script>
+<style lang="stylus" src="@/assets/styles/components/Common/ActionButton.styl">
